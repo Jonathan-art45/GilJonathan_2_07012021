@@ -35,7 +35,7 @@ body{
     padding: 0;
 }
 .logo{
-    justify-self: center;
+    margin: 30px;
     align-self: center;
 }
 .item1{
