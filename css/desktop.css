@@ -97,6 +97,9 @@ body{
     padding: 12px;
     font-weight: bold;
 }
+.isearch{
+    border-radius: none;
+}
 .search{
     border: 0;
     padding: 0;
