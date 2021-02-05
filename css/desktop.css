@@ -95,15 +95,13 @@ body{
     background-color: #0065ff;
     color: white;
     padding: 12px;
-    border-radius: 0 10px 10px 0;
     font-weight: bold;
 }
 .search{
     border: 0;
     padding: 0;
-}
-.isearch{
     border-radius: 0 10px 10px 0;
+}
 }
 .filter{
     display: flex;
