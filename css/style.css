@@ -9,7 +9,6 @@ body {
 #navigation {
     grid-area: navigation;
 }
-
 #search {
     grid-area: search;
 }
@@ -227,7 +226,7 @@ header nav img {
     width: 120px;
     height: 130px;
     object-fit: cover;
-    border-radius: 15px 0px 0px 15px;
+    border-radius: 15px 0 0 15px;
 }
 
 #populary figcaption {
@@ -275,7 +274,7 @@ header nav img {
 }
 
 #hebergement img {
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 15px 15px 0 0;
     height: 110px;
     object-fit: cover;
 }
@@ -348,7 +347,7 @@ header nav img {
 
 #activity img {
     height: calc(100% - 50px);
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 0 0;
 }
 
 #activity figcaption {
