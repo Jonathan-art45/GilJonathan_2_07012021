@@ -97,24 +97,20 @@ body{
     padding: 12px;
     font-weight: bold;
 }
-.isearch{
-    border-radius: none;
-}
 .search{
     border: 0;
     padding: 0;
     border-radius: 0 10px 10px 0;
 }
-}
 .filter{
     display: flex;
     flex-wrap: wrap;
 }
-.filter p{
-    margin-right: 20px;
-    font-weight: bold;
+#search h3{
+    font-size: 1.1rem;
     align-self: center;
-    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
 }
 .boutton{
     background-color: white;
@@ -127,9 +123,6 @@ body{
 }
 .filtre{
     padding: 20px;
-}
-.fas.fa-star{
-    color: #0065ff;
 }
 #hebergement header{
     padding: 0;
@@ -187,9 +180,6 @@ body{
     justify-content: space-between;
     margin-bottom: 20px;
 }
-#populary h1{
-    font-size: 1.5rem;
-}
 #populary figure{
     background-color: white;
     border-radius: 20px 20px 20px 20px;
@@ -198,15 +188,18 @@ body{
     box-shadow: 1px 1px 8px #c0bebe;
 }
 #populary img{
-    width: 130px;
-    height: 150px;
+    width: 40%;
+    height: 135px;
     object-fit: cover;
     border-radius: 20px 0 0 20px;
 }
 #populary figcaption{
     font-size: 0.9rem;
-    margin: 8px;
     position: relative;
+    width: 60%;
+}
+#populary figcaption p{
+    font-size: 0.8rem;
 }
 #populary p{
     font-size: 0.8rem;

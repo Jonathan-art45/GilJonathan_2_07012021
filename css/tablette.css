@@ -94,7 +94,7 @@ body{
     background-color: white;
     border-radius: 60px;
     padding: 0;
-    border: #e4e1e1e3 3px solid;
+    border: #e4e1e1e3 2px solid;
     margin-right: 15px;
     margin-bottom: 15px;
     font-weight: bold;
@@ -127,9 +127,6 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
-}
-.stat{
-    font-size: 30px;
 }
 #populary article {
     margin-bottom: 25px;

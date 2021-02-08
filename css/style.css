@@ -96,9 +96,11 @@ header nav img {
     padding-left: 20px;
     padding-right: 20px;
 }
-
+#search h1{
+    font-size: 1.3rem;
+}
 #search h3 {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
 }
 
 #search header p {
@@ -124,6 +126,7 @@ header nav img {
     border: 1px solid #f2f2f2;
     font-weight: bold;
     padding: 0 40px;
+    width: calc(100% - 90px);
 }
 
 .textsearch {
@@ -135,7 +138,7 @@ header nav img {
     padding: 0;
     background-color: white;
     border-radius: 10px 10px 10px 10px;
-    margin-left: -7px;
+    margin-left: -10px;
 }
 
 .isearch {
@@ -180,7 +183,7 @@ header nav img {
 }
 #info {
     display: flex;
-    padding-top: 10px;
+    margin-top: 10px;
 }
 .i-info {
     width: 30px;
@@ -198,7 +201,9 @@ header nav img {
     background-color: #f2f2f2;
     padding: 20px;
 }
-
+#populary h1{
+    font-size: 1.3rem;
+}
 #populary header {
     display: flex;
     justify-content: space-between;
@@ -207,7 +212,7 @@ header nav img {
 }
 
 .stat {
-    font-size: 20px;
+    font-size: 1.3rem;
 }
 
 #populary article {
@@ -220,6 +225,7 @@ header nav img {
     display: flex;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 1px 1px 8px #c0bebe;
+    background-color: white;
 }
 
 #populary img {
@@ -228,19 +234,20 @@ header nav img {
     object-fit: cover;
     border-radius: 15px 0 0 15px;
 }
-
-#populary figcaption {
+#populary figcaption p{
+    font-size: 0.9rem;
+}
+#populary h2{
     font-size: 1rem;
 }
-
 .bluestar {
     color: #0065ff;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 .greystar {
     color: #c0bebe;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 #populary figcaption {
@@ -259,9 +266,17 @@ header nav img {
     padding-left: 20px;
     padding-right: 20px;
 }
-
+#hebergement p{
+    font-size: 0.9rem;
+}
+#hebergement h1{
+    font-size: 1.3rem;
+}
+#hebergement h2{
+    font-size: 1rem;
+}
 #hebergement header {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 #hebergement figure {
@@ -271,6 +286,7 @@ header nav img {
     padding: 5px;
     box-shadow: 1px 1px 8px #c0bebe;
     margin-bottom: 15px;
+    background-color: white;
 }
 
 #hebergement img {
@@ -336,11 +352,14 @@ header nav img {
 #activity article {
     height: 100%;
 }
-
+#activity h1{
+    font-size: 1.3rem;
+}
 #activity figure {
     height: 100%;
     display: flex;
     flex-direction: column;
+    background-color: white;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 1px 1px 8px #c0bebe;
 }
@@ -348,6 +367,7 @@ header nav img {
 #activity img {
     height: calc(100% - 50px);
     border-radius: 20px 20px 0 0;
+    object-fit: cover;
 }
 
 #activity figcaption {
