@@ -97,6 +97,18 @@ body{
     padding: 12px;
     font-weight: bold;
 }
+.butfilter {
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    background-color: #DEEBFF;
+    color: #0065ff;
+    border-radius: 50%;
+    margin-left: -2px;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+}
 .search{
     border: 0;
     padding: 0;
