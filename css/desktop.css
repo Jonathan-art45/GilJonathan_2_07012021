@@ -94,8 +94,10 @@ body{
 .textsearch{
     background-color: #0065ff;
     color: white;
-    padding: 12px;
     font-weight: bold;
+    line-height: 50px;
+    height: 50px;
+    padding: 0 14px;
 }
 .butfilter {
     width: 45px;
@@ -104,9 +106,7 @@ body{
     background-color: #DEEBFF;
     color: #0065ff;
     border-radius: 50%;
-    margin-left: -2px;
-    margin-top: -2px;
-    margin-bottom: -2px;
+    margin: -2px;
 }
 .search{
     border: 0;
